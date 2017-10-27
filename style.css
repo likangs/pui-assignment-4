@@ -1,0 +1,665 @@
+#center-col {
+  width: 1024px;
+  position: absolute;
+  left: 50%;
+  margin-left: -512px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 40px;
+}
+
+#page-title {
+  width: 176px;
+  height: 28px;
+  font-family: BigCaslon;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #a90000;
+  margin-left: 37px;
+}
+
+#center-nav {
+  margin-left: 100px;
+}
+
+.center-nav-link {
+  font-family: sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #a90000;
+  margin-right: 30px;
+}
+
+#signinup {
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #a90000;
+  float: right;
+  margin-right: 39px;
+  margin-top: 8px;
+}
+
+.product-signinup {
+  margin-right: 90px !important;
+}
+
+#signinup img {
+  position: absolute;
+  margin-top: -7px;
+  margin-left: 5px;
+}
+
+#signup {
+  width: 77px;
+  height: 30px;
+  border: solid 1px #a90000;
+  padding: 5px;
+}
+
+#top-bar {
+  border-bottom: 1px solid silver;
+  padding: 6px;
+}
+
+#hero {
+  height: 400px;
+}
+
+h1 {
+  opacity: 0.9;
+  font-family: "Times New Roman", serif;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  opacity: 0.9;
+  font-family: sans-serif;
+  font-size: 23px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+  font-weight: normal;
+}
+
+p {
+  opacity: 0.9;
+  font-family: sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#hero p {
+  width: 300px;
+  margin:0 auto;
+}
+
+.small-pillow {
+  width: 200px;
+  height: 200px;
+}
+
+#left-hero {
+  float: left;
+  width: 275px;
+  height: 100%;
+}
+
+#right-hero {
+  float: right;
+  width: 275px;
+  height: 100%;
+}
+
+#left-hero img {
+  margin-left: 25px;
+}
+
+
+#right-hero img {
+  float: right;
+  margin-right: 25px;
+}
+
+#center-hero {
+  margin:0 auto;
+  width: 474px;
+  background-color: #ecafaf;
+  height: 100%;
+  padding-top: 20px;
+}
+
+#hero-buttons {
+  width: 360px;
+  margin:0 auto;
+  margin-top: 50px;
+}
+
+.button {
+  opacity: 0.9;
+  background-color: #ee5e63;
+  display: inline-block;
+  width: 170px;
+  margin-left: 5px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+  border-radius: 4px;
+}
+
+#view-all {
+  height: 460px;
+}
+
+
+#view-all-text {
+  background-color: #bfbed4;
+  float: left;
+  width: 372px;
+  height: 410px;
+  padding-top: 50px;
+}
+
+#view-all-text p {
+  text-align: left;
+  margin-left: 37px;
+  margin-top: 40px;
+}
+
+#view-all-text .button {
+  margin-left: 37px;
+  margin-top: 140px;
+}
+
+#view-all-picture {
+  width: 652px;
+  background-image: url('img/front-page-image.png');
+  float: right;
+  height: 100%;
+}
+
+#make-your-own {
+  background-color: #fedac1;
+  height: 460px;
+}
+
+#make-your-own-picture {
+  float: left;
+  width: 512px;
+  background-image: url('img/submit.png');
+  background-size: cover;
+  height: 100%;
+}
+
+#make-your-own-text {
+  padding-top: 40px;
+}
+
+#make-your-own-text h1 {
+  margin-top: 0;
+  font-family: BigCaslon;
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #5d686b;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+#make-your-own-text p {
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #5d686b;
+  display: inline-block;
+  margin-left: 20px;
+  width: 400px;
+}
+
+#make-your-own-text .button {
+  margin-top: 15px;
+}
+
+#message-form * {
+  margin-left: 20px;
+}
+
+#email-input {
+  width: 468px;
+}
+
+#message-input {
+  width: 468px;
+  height: 100px;
+}
+
+.form-label {
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #5d686b;
+  display: inline-block;
+  width: 468px;
+  margin-top: 15px;
+}
+
+#footer {
+  height: 300px;
+}
+
+#footer div {
+  display: inline-block;
+  width: 198px;
+  height: 100%;
+}
+
+#footer div * {
+  position: absolute;
+}
+
+#footer h1 {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #a90000;
+  margin-top: 40px;
+}
+
+#footer h2 {
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #a90000;
+  margin-left: 7px;
+  margin-top: 45px;
+}
+
+#footer p {
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #a90000;
+}
+
+#footer ul {
+  margin-top: 72px;
+  margin-left: -32px;
+}
+
+#footer li {
+  position: relative;
+  list-style: none;
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #a90000;
+  padding-bottom: 15px;
+}
+
+#footer-main * {
+  margin-left: 10px;
+}
+
+#footer-main p {
+  margin-top: 70px;
+}
+
+#footer-main img {
+  margin-top: 100px;
+}
+
+#footer-social-media img {
+  width: 186px;
+  height: 63px;
+  margin-top: 36px;
+}
+
+#legal {
+  font-family: Arial;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ab0404;
+  padding-bottom: 15px;
+  border-top: solid 1px #ab0505;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#copyright {
+}
+
+#legal-links {
+  float: right;
+}
+
+/****************
+ * Product page *
+ ****************/
+#left-nav {
+  width: 180px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.product-filter {
+  font-family: Arial;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #5d686b;
+  padding: 20px 0 0 15px;
+}
+
+#left-nav .button {
+  margin-top: 20px;
+  width: 140px;
+  margin-left: 10px;
+}
+
+.filter-option {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.filter-option input {
+  vertical-align: bottom;
+  margin: 0;
+  padding: 0;
+}
+
+#sort-bar {
+  height: 40px;
+  border-bottom: 1px solid #a90000;
+  margin: 10px 10px 0 10px;
+  font-family: Arial;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #5d686b;
+}
+
+#dropdown-box {
+  float: right;
+}
+
+#product-list {
+  display: inline-block;
+  width: 810px;
+  margin-left: 25px;
+}
+
+.product-box {
+  width: 185px;
+  height: 220px;
+  display: inline-block;
+  margin-left: 12px;
+  margin-top: 8px;
+  vertical-align: top;
+}
+
+.product-image {
+  width: 185px;
+  height: 185px;
+  margin-bottom: 2px;
+}
+
+.product-title {
+  font-family: sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #5d686b;
+}
+
+.product-price {
+  font-family: sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  text-align: right;
+  color: #5d686b;
+  float: right;
+}
+
+.product-creator {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-style: italic;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #5d686b;
+  position: absolute;
+  display: block;
+}
+
+.heart {
+  position: absolute;
+  display: block;
+  margin-left: 166px;
+}
+
+#product-nav {
+  font-family: Arial;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #ab0404;
+  margin-left: 33px;
+  margin-top: 8px;
+  position: absolute;
+}
+
+#product-listing-nav {
+  position: absolute;
+  margin-left: 895px;
+}
+
+/***********************
+ * Product detail page *
+ ***********************/
+#product-details {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#product-details img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#product-info-box {
+  width: 448px;
+  display: inline-block;
+}
+
+#pillow-des {
+
+}
+
+#pillow-des p {
+  font-family: sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #5d686b;	
+}
+
+#pillow-des h1{
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #5d686b;
+  padding-left: 10px;
+}
+
+#pillow-des h3 {  
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #ab0404;
+  padding-left: 10px;
+}
+
+#pillow-des h4{
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #5d686b;
+}
+
+#pillow-des h5 {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #5d686b;
+  padding-left: 8px;
+}
+
+#pillow-des h6{
+  width: 125px;
+  height: 14px;
+  font-family: sans-serif;
+}
+
+#artistpic {
+  display: inline-block;
+}
+
+#art-text {
+  display: inline-block;
+}
+
+.product-select-bar {
+  display: inline-block;
+}
+
+#product-select-bars {
+  margin-left: 10px;
+}
+
+.ps-label {
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  color: #ab0404;
+  display: block;
+}
+
+.product-select-bar select {
+  width: 210px;
+}
+
+#buttons {
+  padding-left: 7px;
+}
+
+#add-to-cart {
+  width: 425px;
+}
+
+#wishlist {
+  margin-top: 5px;
+  background-color: silver;
+}
+
+#pillow-info {
+  margin-left: 10px;
+}
+
+#product-detail-list {
+  margin-top: 10px;
+}
+
+#recommendations {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #5d686b;
+  padding-left: 12px;
+  padding-top: 15px !important;
+  display: block;
+}
+
+.pd-footer {
+  height: 100px !important;
+}
+
+.pd-footer #footer-social-media {
+  margin-left: 835px;
+}
+
+#comments {
+  width: 1020px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#shoppingcart-link {
+  position: absolute;
+  margin-left: 930px;
+}
+
+#wishlist-link {
+  position: absolute;
+  margin-left: 970px;
+}
+
+#cart-counter {
+  position:absolute;
+  margin-left: 950px;
+  margin-top: 20px;
+  background-color: #a90000;
+  color:white;
+  font-family:sans-serif;
+  width: 20px;
+  height:15px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 10px;
+  padding-top: 5px;
+  opacity: 0.8;
+}

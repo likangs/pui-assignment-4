@@ -1,0 +1,150 @@
+<html>
+  <head>
+    <title>Flip Stitch Pillow Website</title>
+    <link rel="stylesheet" type="text/css" href="shoppingcart-style.css">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+  </head>
+  <body>
+    <div id="center-col">
+      <div id="top-bar">
+        <a href="wishlist.html" id="wishlist-link">
+          <img src="img/wishlist.png" />
+        </a>
+        <a href="shoppingcart.html" id="shoppingcart-link">
+          <img src="img/shoppingcart.png" />
+        </a>
+        <div id="cart-counter">0</div>
+        <span id="page-title"><a href="index.html">Flip Stitch Pillow</a></span>
+        <span id="center-nav">
+          <span class="center-nav-link">Style</span>
+          <span class="center-nav-link">Shape</span>
+          <span class="center-nav-link">Customize</span>
+        </span>
+        <span id="signinup" class="product-signinup">
+          <span id="signin">Sign In</span>
+          <span id="signup">Sign Up</span>
+        </span>
+      </div>
+
+      <div id="sort-bar">
+        <span id="product-nav">Home | All Designs | Throw Pillows | Shopping Cart</span>
+      </div>
+
+      <div id="product-page-content">
+        <div id="shopping-cart">
+          <div id="product-details" class="template">
+            <img src="img/sun-pillow.jpg"/>
+            <div id="product-info-box">
+
+              <!--Pillow Description Column-->
+              <div id="pillow-des">
+                <h1>I love noodes (<span class="cart-type">Bed Pillow</span>) <span class="cart-size">(16"x16")</span></h1>
+                <div id="Artist">
+                  <div id="art-text">
+                    <h5>By Sofia Myank</h5>
+                  </div>
+                  <div id="product-select-bars">
+                    <div id="type-bar" class="product-select-bar">
+                      <span id="dropdown-box">
+                        <label class="ps-label">Type</label>
+                        <span class="cart-type"></span>
+                      </span>
+                    </div>
+                    <div id="size-bar" class="product-select-bar">
+                      <span id="dropdown-box">
+                        <label class="ps-label">Size</label>
+                        <span class="cart-size"></span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div id="dropdown-quantity">
+                  <label class="ps-label">Quantity</label>
+                  <select name="select" id="select-drop">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+              </div>
+              <div id="price-cat">
+               <label class="ps-label">Price</label>
+               <h3 class="cart-price">$29.99</h3>
+              </div>
+              <a href="#" class="delete">Remove from cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!--Place Order Section-->
+        <div id="place-order">
+          <h1>Subtotal (<span class="cart-items">1</span> Items):</h1>
+          <h4 class="cart-subtotal">$29.99</h4>
+          <div id="buttons">
+            <div class="button add-to-cart">Place Order</div>
+          </div>
+        </div>
+
+        <span id="recommendations">You Might Also Like:</span>
+        <div id="product-detail-list">
+          <div class="product-box">
+            <img class="product-image" src="img/look-to-the-skies-cf7-pillows.jpg" />
+            <span class="product-title">Marble Gold Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/here-comes-the-sun-vbp-pillows.jpg" />
+            <span class="product-title">I Love Noodle Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Monika Zhang</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/barricade-vn2-pillows.jpg" />
+            <span class="product-title">Rainbow Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/bill-murray-replaceface-pillows.jpg" />
+            <span class="product-title">General Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Lily Lee</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/brilliant-disguise-ndg-pillows.jpg" />
+            <span class="product-title">Gold Fish Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Brenden Zimmerman</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+        </div>
+      </div>
+
+      <!--Bottom Footer-->
+      <div id="footer" class="pd-footer">
+        <div id="footer-social-media">
+          <img src="img/social-media-icons.png" />
+        </div>
+      </div>
+      <div id="legal">
+        <span id="copyright">2017 Flip Stitch Pillow, LLC. All rights reserved. </span>
+        <span id="legal-links">Terms of Use | Privacy Policy | Supply Chain Information | Ad Choices</span>
+      </div>
+    </div>
+  </body>
+  <script src="shoppingcart.js"></script>
+  <script>
+    var currentCart = JSON.parse(localStorage.getItem('cart'));
+    $('#cart-counter').html(currentCart.length);
+  </script>
+</html>

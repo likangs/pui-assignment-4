@@ -1,0 +1,297 @@
+<html>
+  <head>
+    <title>Flip Stitch Pillow Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+  </head>
+  <body>
+    <div id="center-col">
+      <div id="top-bar">
+        <a href="wishlist.html" id="wishlist-link">
+          <img src="img/wishlist.png" />
+        </a>
+        <a href="shoppingcart.html" id="shoppingcart-link">
+          <img src="img/shoppingcart.png" />
+        </a>
+        <div id="cart-counter">0</div>
+        <span id="page-title"><a href="index.html">Flip Stitch Pillow</a></span>
+        <span id="center-nav">
+          <span class="center-nav-link">Style</span>
+          <span class="center-nav-link">Shape</span>
+          <span class="center-nav-link">Customize</span>
+        </span>
+        <span id="signinup" class="product-signinup">
+          <span id="signin">Sign In</span>
+          <span id="signup">Sign Up</span>
+        </span>
+      </div>
+
+      <div id="sort-bar">
+        <span id="product-nav">Home | All Designs</span>
+        <span id="dropdown-box">
+          <label id="sort-label">Sort By:</label>
+          <select name="select">
+            <option value="popular">Popular</option> 
+            <option value="recently-added">Recently Added</option>
+            <option value="price">Price</option>
+            <option value="coolness">Coolness</option>
+          </select>
+        </span>
+      </div>
+
+      <div id="product-page-content">
+        <div id="left-nav">
+          <div class="product-filter">
+            <strong>Filter by types:</strong>
+            <div class="filter-option">
+              <input type="checkbox" id="couch">
+              <label for="couch">Couch Pillow</label>
+            </div>
+            <div class="filter-option">
+              <input type="checkbox" id="bed">
+              <label for="bed">Bed Pillow</label>
+            </div>
+            <div class="filter-option">
+              <input type="checkbox" id="car">
+              <label for="car">Car Pillow</label>
+            </div>
+            <div class="filter-option">
+              <input type="checkbox" id="floor">
+              <label for="floor">Floor Pillow</label>
+            </div>
+          </div>
+
+          <div class="product-filter">
+            <strong>Filter by shapes:</strong>
+            <div class="filter-option">
+              <input type="checkbox" id="bear">
+              <label for="bear">Bear Pillow</label>
+            </div>
+            <div class="filter-option">
+              <input type="checkbox" id="bunny">
+              <label for="bunny">Bunny Pillow</label>
+            </div>
+            <div class="filter-option">
+              <input type="checkbox" id="dog">
+              <label for="dog">Dog Pillow</label>
+            </div>
+            <div class="filter-option">
+              <input type="checkbox" id="square">
+              <label for="square">Square Pillow</label>
+            </div>
+            <div class="filter-option">
+              <input type="checkbox" id="pineapple">
+              <label for="pineapple">Pineapple Pillow</label>
+            </div>
+          </div>
+          <div class="button">Apply Filters</div>
+        </div>
+
+        <div id="product-list">
+          <div class="product-box">
+            <img class="product-image" src="img/here-comes-the-sun-vbp-pillows.jpg" />
+            <span class="product-title"><a href="product-detail.html">Marble Gold Throw Pillow</a></span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/barricade-vn2-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/bill-murray-replaceface-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/brilliant-disguise-ndg-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/chasing-wave-under-the-red-moon-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/heavy-words-are-so-lightly-thrown-but-still-id-leap-in-front-of-a-flying-bullet-for-you-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/floral-02-xfg-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/look-to-the-skies-cf7-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/love-of-a-flower-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/meet-me-halfway-y29-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/never-stop-exploring-the-beach-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/old-school-camera-phone-for-iphone-case-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+
+
+          <div class="product-box">
+            <img class="product-image" src="img/ornate-elephant-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/rose-89u-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/she-believed-she-could-grey-pink-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/sky377721-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/the-unicorn-is-reading-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/the-world-map-8av-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/watercolour-cacti-and-succulent-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+          <div class="product-box">
+            <img class="product-image" src="img/woman-with-flowers-10390758-pillows.jpg" />
+            <span class="product-title">Marble Gold Throw Pillow</span>
+            <span class="product-price">$29.99</span>
+            <span class="product-creator">By: Sophia Myank</span>
+            <img class="heart" src="img/heart.png">
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <img id="product-listing-nav" src="img/product-listing-nav.png" \>
+        <div id="footer-main">
+          <h1>Flip Stitch Pillow</h1>
+          <p>Customize Pillows You Love</p>
+          <img src="img/appstore.png" />
+        </div>
+        <div id="footer-help">
+          <h2>HELP</h2>
+          <ul>
+            <li>Track My Order</li>
+            <li>Return My Order</li>
+            <li>Contact and FAQs</li>
+            <li>Selling</li>
+            <li>About Us</li>
+            <li>Wholesale Program</li>
+          </ul>
+        </div>
+        <div id="footer-shop">
+          <h2>SHOP</h2>
+          <ul>
+            <li>Art Prints</li>
+            <li>Bed Pillows</li>
+            <li>Couch Pillows</li>
+            <li>Floor Pillows</li>
+            <li>Ground Pillows</li>
+            <li>Gift Cards</li>
+          </ul>
+        </div>
+        <div id="footer-news">
+          <h2>NEWS AND PROMOS</h2>
+          <ul>
+            <li>Blog</li>
+            <li>Collabs</li>
+            <li>Newsletter</li>
+            <li>Refer A Friend</li>
+          </ul>
+        </div>
+        <div id="footer-social-media">
+          <img src="img/social-media-icons.png" />
+        </div>
+      </div>
+      <div id="legal">
+        <span id="copyright">2017 Flip Stitch Pillow, LLC. All rights reserved. </span>
+        <span id="legal-links">Terms of Use | Privacy Policy | Supply Chain Information | Ad Choices</span>
+      </div>
+    </div>
+  </body>
+  <script>
+    var currentCart = localStorage.getItem('cart');
+
+    if (currentCart == null) {
+      localStorage.setItem('cart', JSON.stringify([]));
+    }
+
+    var currentCart = JSON.parse(localStorage.getItem('cart'));
+    $('#cart-counter').html(currentCart.length);
+  </script>
+</html>
